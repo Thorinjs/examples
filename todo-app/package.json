@@ -1,0 +1,23 @@
+{
+  "name": "todo-app",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "setup": "node todo.js --setup=all",
+    "start": "node todo.js"
+  },
+  "dependencies": {
+    "nunjucks": "^2.4.2",
+    "thorin": "^1.x",
+    "thorin-plugin-auth-password": "^1.0.16",
+    "thorin-plugin-discovery": "^1.0.5",
+    "thorin-plugin-loglet": "^1.0.4",
+    "thorin-plugin-render": "^1.0.16",
+    "thorin-plugin-session": "^1.0.12",
+    "thorin-store-sql": "^1.x",
+    "thorin-transport-http": "^1.x"
+  },
+  "engines": {
+    "node": ">= 4.x"
+  }
+}

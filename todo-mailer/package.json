@@ -1,0 +1,21 @@
+{
+  "name": "todo-mailer",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "setup": "node mailer.js --setup=all",
+    "start": "node mailer.js"
+  },
+  "dependencies": {
+    "nodemailer-mailgun-transport": "^1.1.0",
+    "nunjucks": "^2.4.2",
+    "thorin": "^1.x",
+    "thorin-plugin-mail": "^1.x",
+    "thorin-plugin-render": "^1.x",
+    "thorin-transport-http": "^1.x",
+    "thorin-plugin-discovery": "^1.x"
+  },
+  "engines": {
+    "node": ">= 4.x"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "todo-worker",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "setup": "node mailer.js --setup=all",
+    "start": "node mailer.js"
+  },
+  "dependencies": {
+    "thorin": "^1.x",
+    "thorin-transport-http": "^1.x",
+    "thorin-plugin-discovery": "^1.x"
+  },
+  "engines": {
+    "node": ">= 4.x"
+  }
+}

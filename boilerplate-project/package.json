@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "setup": "node app.js --setup=all",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "thorin": "^1.x"
+  },
+  "engines": {
+    "node": ">= 4.x"
+  }
+}
